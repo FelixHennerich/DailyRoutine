@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		DC30421F2AA36C9100EA0ED0 /* DailyRoutine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyRoutine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3042222AA36C9100EA0ED0 /* DailyRoutineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRoutineApp.swift; sourceTree = "<group>"; };
-		DC3042242AA36C9100EA0ED0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC3042242AA36C9100EA0ED0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		DC3042262AA36C9200EA0ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3042292AA36C9200EA0ED0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC30422F2AA36C9200EA0ED0 /* DailyRoutineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyRoutineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
