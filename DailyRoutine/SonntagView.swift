@@ -1,11 +1,11 @@
 import SwiftUI
 
-struct ContentView: View {
+struct SonntagView: View {
     @State private var items: [Item] = [
-        Item(name: "Workout"),
-        Item(name: "Duschen"),
-        Item(name: "Frühstück"),
-        Item(name: "Schule"),
+        Item(name: "Wakeup xx:xx"),
+        Item(name: ""),
+        Item(name: ""),
+        Item(name: "Schule xx:xx"),
     ]
 
     @State private var isAddingNewItem = false
@@ -31,7 +31,7 @@ struct ContentView: View {
                 Button(action: {
                     isAddingNewItem = true
                 }) {
-                    Text("Neues Element hinzufügen")
+                    Text("Neue Routine hinzufügen")
                         .font(.headline)
                         .padding()
                         .background(Color.blue)
@@ -40,11 +40,11 @@ struct ContentView: View {
                 }
                 .padding()
             }
-            .navigationTitle("Daily Routine")
+            .navigationTitle("Sonntag - Routine")
             .navigationBarItems(trailing: EditButton())
         }
         .sheet(isPresented: $isAddingNewItem, content: {
-            AddNewItemView(items: $items, isPresented: $isAddingNewItem)
+            AddNewItemViewSonntagView(items: $items, isPresented: $isAddingNewItem)
         })
     }
 
@@ -53,19 +53,13 @@ struct ContentView: View {
     }
 }
 
-struct Item: Identifiable {
-    let id = UUID()
-    var name: String
-    var isChecked = false
-}
-
-struct ContentView_Previews: PreviewProvider {
+struct SonntagView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SonntagView()
     }
 }
 
-struct AddNewItemView: View {
+struct AddNewItemViewSonntagView: View {
     @Binding var items: [Item]
     @Binding var isPresented: Bool
     @State private var newItemName = ""
@@ -73,7 +67,7 @@ struct AddNewItemView: View {
     var body: some View {
         NavigationView {
             VStack {
-                TextField("Neues Element eingeben", text: $newItemName)
+                TextField("Neue Routine eingeben", text: $newItemName)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
 
@@ -92,7 +86,7 @@ struct AddNewItemView: View {
                 }
                 .padding()
             }
-            .navigationTitle("Neues Element hinzufügen")
+            .navigationTitle("Neue Routine hinzufügen")
             .navigationBarItems(trailing: Button("Abbrechen") {
                 isPresented = false
             })

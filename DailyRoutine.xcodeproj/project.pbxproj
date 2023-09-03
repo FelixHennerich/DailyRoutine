@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DC3042232AA36C9100EA0ED0 /* DailyRoutineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3042222AA36C9100EA0ED0 /* DailyRoutineApp.swift */; };
-		DC3042252AA36C9100EA0ED0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3042242AA36C9100EA0ED0 /* ContentView.swift */; };
+		DC3042252AA36C9100EA0ED0 /* MontagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3042242AA36C9100EA0ED0 /* MontagView.swift */; };
 		DC3042272AA36C9200EA0ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3042262AA36C9200EA0ED0 /* Assets.xcassets */; };
 		DC30422A2AA36C9200EA0ED0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3042292AA36C9200EA0ED0 /* Preview Assets.xcassets */; };
 		DC3042342AA36C9200EA0ED0 /* DailyRoutineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3042332AA36C9200EA0ED0 /* DailyRoutineTests.swift */; };
 		DC30423E2AA36C9200EA0ED0 /* DailyRoutineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30423D2AA36C9200EA0ED0 /* DailyRoutineUITests.swift */; };
 		DC3042402AA36C9200EA0ED0 /* DailyRoutineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30423F2AA36C9200EA0ED0 /* DailyRoutineUITestsLaunchTests.swift */; };
+		DC932D5F2AA4DAAA0075DA0B /* DienstagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC932D5E2AA4DAAA0075DA0B /* DienstagView.swift */; };
+		DC932D612AA4DBDC0075DA0B /* MittwochView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC932D602AA4DBDC0075DA0B /* MittwochView.swift */; };
+		DC932D632AA4DC110075DA0B /* DonnerstagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC932D622AA4DC110075DA0B /* DonnerstagView.swift */; };
+		DC932D652AA4DC450075DA0B /* FreitagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC932D642AA4DC450075DA0B /* FreitagView.swift */; };
+		DC932D672AA4DCAB0075DA0B /* SamstagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC932D662AA4DCAB0075DA0B /* SamstagView.swift */; };
+		DC932D692AA4DCB50075DA0B /* SonntagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC932D682AA4DCB50075DA0B /* SonntagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		DC30421F2AA36C9100EA0ED0 /* DailyRoutine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyRoutine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3042222AA36C9100EA0ED0 /* DailyRoutineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRoutineApp.swift; sourceTree = "<group>"; };
-		DC3042242AA36C9100EA0ED0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		DC3042242AA36C9100EA0ED0 /* MontagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontagView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		DC3042262AA36C9200EA0ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3042292AA36C9200EA0ED0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC30422F2AA36C9200EA0ED0 /* DailyRoutineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyRoutineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		DC3042392AA36C9200EA0ED0 /* DailyRoutineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyRoutineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30423D2AA36C9200EA0ED0 /* DailyRoutineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRoutineUITests.swift; sourceTree = "<group>"; };
 		DC30423F2AA36C9200EA0ED0 /* DailyRoutineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRoutineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC932D5E2AA4DAAA0075DA0B /* DienstagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DienstagView.swift; sourceTree = "<group>"; };
+		DC932D602AA4DBDC0075DA0B /* MittwochView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MittwochView.swift; sourceTree = "<group>"; };
+		DC932D622AA4DC110075DA0B /* DonnerstagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonnerstagView.swift; sourceTree = "<group>"; };
+		DC932D642AA4DC450075DA0B /* FreitagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreitagView.swift; sourceTree = "<group>"; };
+		DC932D662AA4DCAB0075DA0B /* SamstagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamstagView.swift; sourceTree = "<group>"; };
+		DC932D682AA4DCB50075DA0B /* SonntagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonntagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				DC3042222AA36C9100EA0ED0 /* DailyRoutineApp.swift */,
-				DC3042242AA36C9100EA0ED0 /* ContentView.swift */,
+				DC3042242AA36C9100EA0ED0 /* MontagView.swift */,
+				DC932D5E2AA4DAAA0075DA0B /* DienstagView.swift */,
+				DC932D602AA4DBDC0075DA0B /* MittwochView.swift */,
+				DC932D622AA4DC110075DA0B /* DonnerstagView.swift */,
+				DC932D642AA4DC450075DA0B /* FreitagView.swift */,
+				DC932D662AA4DCAB0075DA0B /* SamstagView.swift */,
+				DC932D682AA4DCB50075DA0B /* SonntagView.swift */,
 				DC3042262AA36C9200EA0ED0 /* Assets.xcassets */,
 				DC3042282AA36C9200EA0ED0 /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3042252AA36C9100EA0ED0 /* ContentView.swift in Sources */,
+				DC3042252AA36C9100EA0ED0 /* MontagView.swift in Sources */,
+				DC932D692AA4DCB50075DA0B /* SonntagView.swift in Sources */,
+				DC932D5F2AA4DAAA0075DA0B /* DienstagView.swift in Sources */,
+				DC932D632AA4DC110075DA0B /* DonnerstagView.swift in Sources */,
 				DC3042232AA36C9100EA0ED0 /* DailyRoutineApp.swift in Sources */,
+				DC932D612AA4DBDC0075DA0B /* MittwochView.swift in Sources */,
+				DC932D652AA4DC450075DA0B /* FreitagView.swift in Sources */,
+				DC932D672AA4DCAB0075DA0B /* SamstagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
